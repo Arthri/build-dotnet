@@ -15,6 +15,8 @@ on:
 jobs:
   build:
     uses: Arthri/build-dotnet/.github/workflows/i.yml@v1
+    permissions:
+      contents: read
 ```
 
 ## Usage
